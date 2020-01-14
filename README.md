@@ -3,7 +3,7 @@ Java Selenium TestNG Web Automation
 
 Banana Republic Web Checkout Automation implementing Page Object Modeling design pattern + Java/Selenium/TestNG/Apache POI
 
-SCOPE: This purpose of this project is to utilitze Page Object Modeling (POM) design pattern to automate and validate the critical functions of the Banana Republic website.  The critical functions automated and validated with the page objects/test cases are:
+SCOPE: This purpose of this project is to implement Page Object Modeling (POM) design pattern in conjunction with Java/Selenium/TestNG/Apache POI to automate and validate the critical functions of the Banana Republic website.  The critical functions automated and validated with the page objects/test cases are:
  - logging in user account
  - searching for items
  - adding item to cart/shopping bag
