@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BRTestSuite" verbose="2">
+  <test name="HomePageTest">
+	    <classes>
+	      <class name="org.br.test.HomePageTest"/>
+	    </classes>
+  </test> 
+  <test name="LoginTest">
+	    <classes>
+	      <class name="org.br.test.LoginPageTest"/>
+	    </classes>
+  </test> <!-- Test -->
+    <test name="SearchPageTest">
+	    <classes>
+	      <class name="org.br.test.SearchPageTest"/>
+	    </classes>
+  </test>
+    <test name="ProductPageTest">
+	    <classes>
+	      <class name="org.br.test.ProductPageTest"/>
+	    </classes>
+  </test>
+    <test name="ShopBagPageTest">
+	    <classes>
+	      <class name="org.br.test.ShopBagPageTest"/>
+	    </classes>
+  </test>
+    <test name="CheckoutPageTest">
+	    <classes>
+	      <class name="org.br.test.CheckoutPageTest"/>
+	    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->

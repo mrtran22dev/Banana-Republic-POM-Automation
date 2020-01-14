@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [BRTestSuite]">
+  <test thread-count="5" verbose="2" name="HomePageTest(failed)">
+    <classes>
+      <class name="org.br.test.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="checkNavBarMenuTest"/>
+          <include name="checkLogosTest"/>
+        </methods>
+      </class> <!-- org.br.test.HomePageTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+  <test thread-count="5" verbose="2" name="LoginTest(failed)">
+    <classes>
+      <class name="org.br.test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="titleTest"/>
+        </methods>
+      </class> <!-- org.br.test.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" verbose="2" name="SearchPageTest(failed)">
+    <classes>
+      <class name="org.br.test.SearchPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="titleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.br.test.SearchPageTest -->
+    </classes>
+  </test> <!-- SearchPageTest(failed) -->
+  <test thread-count="5" verbose="2" name="CheckoutPageTest(failed)">
+    <classes>
+      <class name="org.br.test.CheckoutPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="productDetailActualTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.br.test.CheckoutPageTest -->
+    </classes>
+  </test> <!-- CheckoutPageTest(failed) -->
+</suite> <!-- Failed suite [BRTestSuite] -->

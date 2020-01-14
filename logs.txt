@@ -1,0 +1,240 @@
+1578512930768	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mt\\AppData\\Local\\Temp\\rust_mozprofile.Sz0skPPdMzWJ"
+1578512931404	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1578512931514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1578512931514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1578512931518	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1578512931518	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1578512931625	Marionette	TRACE	Received observer notification profile-after-change
+1578512931669	Marionette	TRACE	Received observer notification toplevel-window-ready
+1578512931722	Marionette	TRACE	Received observer notification command-line-startup
+1578512931722	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1578512931782	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1578512934624	Marionette	TRACE	Received observer notification marionette-startup-requested
+1578512934625	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1578512934633	Marionette	TRACE	All scripts recorded.
+1578512934633	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1578512934634	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1578512934634	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1578512934634	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1578512934634	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1578512934635	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1578512934635	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1578512934636	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1578512934636	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1578512934636	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1578512934636	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1578512934637	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1578512934637	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1578512934637	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1578512934637	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1578512934638	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1578512934638	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1578512934638	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1578512934638	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1578512934639	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1578512934639	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1578512934639	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1578512934639	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1578512934639	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1578512934640	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1578512934640	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1578512934640	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1578512934641	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1578512934641	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1578512934641	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1578512934642	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1578512934695	Marionette	INFO	Listening on port 53592
+1578512934695	Marionette	DEBUG	Marionette is listening
+1578512935086	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53608
+1578512935088	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1578512935088	Marionette	WARN	TLS certificate errors will be ignored for this session
+1578512935113	Marionette	TRACE	[19] Frame script loaded
+1578512935115	Marionette	TRACE	[19] Frame script registered
+1578512935117	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"bef483d1-e6b4-44af-9b09-fd4489ecd8ea","capabilities":{"browserName":"firefox","browserVersion":"72.0" ... ozprofile.Sz0skPPdMzWJ","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1578512935218	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetWindowRect",{"height":800,"width":1200,"x":null,"y":null}]
+1578512935276	Marionette	DEBUG	0 <- [1,2,null,{"x":3,"y":3,"width":1200,"height":800}]
+1578512935291	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.bananarepublic.com"}]
+1578512935296	Marionette	TRACE	[19] Received DOM event beforeunload for about:blank
+1578512938414	Marionette	TRACE	[19] Received DOM event pagehide for about:blank
+1578512939132	Marionette	TRACE	[19] Received DOM event DOMContentLoaded for https://bananarepublic.gap.com/
+1578512939247	Marionette	TRACE	[19] Received DOM event pageshow for https://bananarepublic.gap.com/
+1578512939249	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1578512939312	Marionette	DEBUG	0 -> [0,4,"WebDriver:GetTitle",{}]
+1578512939313	Marionette	DEBUG	0 <- [1,4,null,{"value":"Shop Banana Republic for Contemporary Clothing for Women & Men"}]
+1578512939363	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id='EmailPopUpContent']"}]
+1578512939386	Marionette	DEBUG	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"50cddff6-2cef-4da7-a84d-6482d2f3dc2e"}}]
+1578512939425	Marionette	DEBUG	0 -> [0,6,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"50cddff6-2cef-4da7-a84d-6482d2f3dc2e"}],"newS ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512939461	Marionette	DEBUG	0 <- [1,6,null,{"value":true}]
+1578512939476	Marionette	DEBUG	0 -> [0,7,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"50cddff6-2cef-4da7-a84d-6482d2f3dc2e"}],"newS ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512939543	Marionette	DEBUG	0 <- [1,7,null,{"value":true}]
+1578512939550	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='universal-modal__header']/button"}]
+1578512940082	Marionette	DEBUG	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2c16cbb8-f21d-4cfb-be2f-830b2df9e6ef"}}]
+1578512940089	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementClick",{"id":"2c16cbb8-f21d-4cfb-be2f-830b2df9e6ef"}]
+1578512940637	Marionette	DEBUG	[19] Canceled page load listener because no navigation has been detected
+1578512940638	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1578512940648	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElements",{"using":"xpath","value":"//*[@class='sister-brands-bar--inner']/a"}]
+1578512940719	Marionette	DEBUG	0 <- [1,10,null,[{"element-6066-11e4-a52e-4f735466cecf":"9b280af5-0819-4d45-8670-043536970dde"},{"element-6066-11e4-a52e-4f735466c ... ecf":"f1875289-bf70-412e-acd6-cfe0bbbbd6bf"},{"element-6066-11e4-a52e-4f735466cecf":"9ad62734-2473-408a-b5ef-0596edaf3c0e"}]]
+1578512940750	Marionette	DEBUG	0 -> [0,11,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"9b280af5-0819-4d45-8670-043536970dde"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+JavaScript error: https://servedby.flashtalking.com/container/5119;30678;3628;iframe/?ft_referrer=https%3A%2F%2Fbananarepublic.gap.com%2F&U6=BR&cachebuster=786755.50724022, line 11: SecurityError: The operation is insecure.
+1578512940798	Marionette	DEBUG	0 <- [1,11,null,{"value":"Gap"}]
+1578512941115	Marionette	DEBUG	0 -> [0,12,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"3eab0535-ddfb-4983-a34b-9e1dd7c8f52a"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512941153	Marionette	DEBUG	0 <- [1,12,null,{"value":"Old Navy"}]
+1578512941280	Marionette	DEBUG	0 -> [0,13,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"45286189-35fb-4ea4-8dc6-a37c42128f8c"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512941428	Marionette	DEBUG	0 <- [1,13,null,{"value":"Banana Republic"}]
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1578512941563	Marionette	DEBUG	0 -> [0,14,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"f1875289-bf70-412e-acd6-cfe0bbbbd6bf"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512941600	Marionette	DEBUG	0 <- [1,14,null,{"value":"Athleta"}]
+1578512941711	Marionette	DEBUG	0 -> [0,15,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"9ad62734-2473-408a-b5ef-0596edaf3c0e"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512941783	Marionette	DEBUG	0 <- [1,15,null,{"value":"Hill City"}]
+1578512942101	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='topNavWrapper']/child::div[2]/ul/li"}]
+1578512942146	Marionette	DEBUG	0 <- [1,16,null,[{"element-6066-11e4-a52e-4f735466cecf":"83fdd491-a838-435d-ab74-a22557b386d8"},{"element-6066-11e4-a52e-4f735466c ... ecf":"7f568ea8-d651-495d-bd9f-376043266b03"},{"element-6066-11e4-a52e-4f735466cecf":"5e4d6a4c-f314-4943-b495-08b4e6e23bb9"}]]
+1578512942978	Marionette	DEBUG	0 -> [0,17,"WebDriver:SetTimeouts",{"implicit":2000}]
+1578512942979	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1578512943787	Marionette	DEBUG	0 -> [0,18,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"83f ... 557b386d8"},"type":"pointerMove","x":0,"y":0}],"id":"default mouse","parameters":{"pointerType":"mouse"},"type":"pointer"}]}]
+1578512943909	Marionette	DEBUG	0 <- [1,18,null,{"value":null}]
+1578512944646	Marionette	DEBUG	0 -> [0,19,"WebDriver:FindElement",{"element":"83fdd491-a838-435d-ab74-a22557b386d8","using":"css selector","value":"a"}]
+1578512944650	Marionette	DEBUG	0 <- [1,19,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a5a89071-d986-4b61-a24e-1666934a966b"}}]
+1578512944700	Marionette	DEBUG	0 -> [0,20,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"a5a89071-d986-4b61-a24e-1666934a966b"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512944708	Marionette	DEBUG	0 <- [1,20,null,{"value":"New Arrivals"}]
+1578512944961	Marionette	DEBUG	0 -> [0,21,"WebDriver:SetTimeouts",{"implicit":2000}]
+1578512944962	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1578512944969	Marionette	DEBUG	0 -> [0,22,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"82e ... ae2644d90"},"type":"pointerMove","x":0,"y":0}],"id":"default mouse","parameters":{"pointerType":"mouse"},"type":"pointer"}]}]
+1578512945077	Marionette	DEBUG	0 <- [1,22,null,{"value":null}]
+1578512945294	Marionette	DEBUG	0 -> [0,23,"WebDriver:FindElement",{"element":"82ed67f2-358a-4b52-a43e-bbfae2644d90","using":"css selector","value":"a"}]
+1578512945308	Marionette	DEBUG	0 <- [1,23,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8f06e7fd-4dec-4451-90fe-21fee68c4888"}}]
+1578512945316	Marionette	DEBUG	0 -> [0,24,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"8f06e7fd-4dec-4451-90fe-21fee68c4888"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512945333	Marionette	DEBUG	0 <- [1,24,null,{"value":"Women"}]
+[Parent 8016, Gecko_IOThread] WARNING: file z:/task_1578068356/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 8016, Gecko_IOThread] WARNING: file z:/task_1578068356/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+1578512945842	Marionette	DEBUG	0 -> [0,25,"WebDriver:SetTimeouts",{"implicit":2000}]
+1578512945842	Marionette	DEBUG	0 <- [1,25,null,{"value":null}]
+1578512945847	Marionette	DEBUG	0 -> [0,26,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"0c9 ... f1c631442"},"type":"pointerMove","x":0,"y":0}],"id":"default mouse","parameters":{"pointerType":"mouse"},"type":"pointer"}]}]
+1578512945956	Marionette	DEBUG	0 <- [1,26,null,{"value":null}]
+1578512945961	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElement",{"element":"0c9d6813-f70d-432d-8c48-3d6f1c631442","using":"css selector","value":"a"}]
+1578512945963	Marionette	DEBUG	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"427700db-0afc-4a10-9003-c7bd8532a08f"}}]
+1578512945968	Marionette	DEBUG	0 -> [0,28,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"427700db-0afc-4a10-9003-c7bd8532a08f"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512945973	Marionette	DEBUG	0 <- [1,28,null,{"value":"Men"}]
+1578512946048	Marionette	DEBUG	0 -> [0,29,"WebDriver:SetTimeouts",{"implicit":2000}]
+1578512946049	Marionette	DEBUG	0 <- [1,29,null,{"value":null}]
+1578512946057	Marionette	DEBUG	0 -> [0,30,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"233 ... a8e84aa2d"},"type":"pointerMove","x":0,"y":0}],"id":"default mouse","parameters":{"pointerType":"mouse"},"type":"pointer"}]}]
+1578512946172	Marionette	DEBUG	0 <- [1,30,null,{"value":null}]
+1578512946228	Marionette	DEBUG	0 -> [0,31,"WebDriver:FindElement",{"element":"2331f606-6ec6-4c26-827d-5c1a8e84aa2d","using":"css selector","value":"a"}]
+1578512946230	Marionette	DEBUG	0 <- [1,31,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"dcfa77f2-4ac6-4b73-b0a6-6d0d6f0bee0c"}}]
+1578512946237	Marionette	DEBUG	0 -> [0,32,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"dcfa77f2-4ac6-4b73-b0a6-6d0d6f0bee0c"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512946247	Marionette	DEBUG	0 <- [1,32,null,{"value":"Petites"}]
+1578512946380	Marionette	DEBUG	0 -> [0,33,"WebDriver:SetTimeouts",{"implicit":2000}]
+1578512946380	Marionette	DEBUG	0 <- [1,33,null,{"value":null}]
+1578512946390	Marionette	DEBUG	0 -> [0,34,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"306 ... 9367d68d9"},"type":"pointerMove","x":0,"y":0}],"id":"default mouse","parameters":{"pointerType":"mouse"},"type":"pointer"}]}]
+1578512946567	Marionette	DEBUG	0 <- [1,34,null,{"value":null}]
+1578512946587	Marionette	DEBUG	0 -> [0,35,"WebDriver:FindElement",{"element":"30669319-4afb-4a12-ae23-94c9367d68d9","using":"css selector","value":"a"}]
+1578512946598	Marionette	DEBUG	0 <- [1,35,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1436964f-4e2f-4b90-aa30-beba4e633151"}}]
+1578512946605	Marionette	DEBUG	0 -> [0,36,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"1436964f-4e2f-4b90-aa30-beba4e633151"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512946616	Marionette	DEBUG	0 <- [1,36,null,{"value":"Shoes"}]
+1578512946711	Marionette	DEBUG	0 -> [0,37,"WebDriver:SetTimeouts",{"implicit":2000}]
+1578512946711	Marionette	DEBUG	0 <- [1,37,null,{"value":null}]
+1578512946718	Marionette	DEBUG	0 -> [0,38,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"fdf ... 3872b6033"},"type":"pointerMove","x":0,"y":0}],"id":"default mouse","parameters":{"pointerType":"mouse"},"type":"pointer"}]}]
+1578512946831	Marionette	DEBUG	0 <- [1,38,null,{"value":null}]
+1578512946838	Marionette	DEBUG	0 -> [0,39,"WebDriver:FindElement",{"element":"fdf29727-8ae4-4c48-9212-c7f3872b6033","using":"css selector","value":"a"}]
+1578512946842	Marionette	DEBUG	0 <- [1,39,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2bb5f40d-7684-4a27-bd2c-94ec54d1d9bf"}}]
+1578512946853	Marionette	DEBUG	0 -> [0,40,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"2bb5f40d-7684-4a27-bd2c-94ec54d1d9bf"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512946861	Marionette	DEBUG	0 <- [1,40,null,{"value":"Accessories"}]
+1578512946954	Marionette	DEBUG	0 -> [0,41,"WebDriver:SetTimeouts",{"implicit":2000}]
+1578512946954	Marionette	DEBUG	0 <- [1,41,null,{"value":null}]
+1578512946961	Marionette	DEBUG	0 -> [0,42,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"bf5 ... 5e357a374"},"type":"pointerMove","x":0,"y":0}],"id":"default mouse","parameters":{"pointerType":"mouse"},"type":"pointer"}]}]
+1578512947088	Marionette	DEBUG	0 <- [1,42,null,{"value":null}]
+1578512947094	Marionette	DEBUG	0 -> [0,43,"WebDriver:FindElement",{"element":"bf555989-1654-4075-b527-3505e357a374","using":"css selector","value":"a"}]
+1578512947099	Marionette	DEBUG	0 <- [1,43,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"42e6511e-e566-477f-b997-96f7e6e996c6"}}]
+1578512947106	Marionette	DEBUG	0 -> [0,44,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"42e6511e-e566-477f-b997-96f7e6e996c6"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512947112	Marionette	DEBUG	0 <- [1,44,null,{"value":"ABOUT US"}]
+1578512947179	Marionette	DEBUG	0 -> [0,45,"WebDriver:SetTimeouts",{"implicit":2000}]
+1578512947179	Marionette	DEBUG	0 <- [1,45,null,{"value":null}]
+1578512947185	Marionette	DEBUG	0 -> [0,46,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"7f5 ... 043266b03"},"type":"pointerMove","x":0,"y":0}],"id":"default mouse","parameters":{"pointerType":"mouse"},"type":"pointer"}]}]
+1578512947304	Marionette	DEBUG	0 <- [1,46,null,{"value":null}]
+1578512947308	Marionette	DEBUG	0 -> [0,47,"WebDriver:FindElement",{"element":"7f568ea8-d651-495d-bd9f-376043266b03","using":"css selector","value":"a"}]
+1578512947310	Marionette	DEBUG	0 <- [1,47,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3587ae40-4676-4b81-b6d4-5255d3bfebe0"}}]
+1578512947315	Marionette	DEBUG	0 -> [0,48,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"3587ae40-4676-4b81-b6d4-5255d3bfebe0"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512947323	Marionette	DEBUG	0 <- [1,48,null,{"value":"Factory"}]
+1578512947377	Marionette	DEBUG	0 -> [0,49,"WebDriver:SetTimeouts",{"implicit":2000}]
+1578512947377	Marionette	DEBUG	0 <- [1,49,null,{"value":null}]
+1578512947383	Marionette	DEBUG	0 -> [0,50,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"5e4 ... 4e6e23bb9"},"type":"pointerMove","x":0,"y":0}],"id":"default mouse","parameters":{"pointerType":"mouse"},"type":"pointer"}]}]
+1578512947505	Marionette	DEBUG	0 <- [1,50,null,{"value":null}]
+1578512947515	Marionette	DEBUG	0 -> [0,51,"WebDriver:FindElement",{"element":"5e4d6a4c-f314-4943-b495-08b4e6e23bb9","using":"css selector","value":"a"}]
+1578512947521	Marionette	DEBUG	0 <- [1,51,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7735842e-e691-4e4e-9ccf-54903cdf0321"}}]
+1578512947531	Marionette	DEBUG	0 -> [0,52,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"7735842e-e691-4e4e-9ccf-54903cdf0321"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512947548	Marionette	DEBUG	0 <- [1,52,null,{"value":"Sale"}]
+1578512947789	Marionette	DEBUG	0 -> [0,53,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='universal-nav--inner-wrapper'][1]"}]
+1578512947868	Marionette	DEBUG	0 <- [1,53,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e3a4fd18-6817-46a8-84ab-ab1da5279a13"}}]
+1578512947876	Marionette	DEBUG	0 -> [0,54,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"e3a ... 79a13"},"type":"pointerMove","x":1080,"y":20}],"id":"default mouse","parameters":{"pointerType":"mouse"},"type":"pointer"}]}]
+1578512947885	Marionette	DEBUG	0 <- [1,54,{"error":"move target out of bounds","message":"(1666, 40) is out of bounds of viewport width (1189) and height (721)", ... ch/</req<@chrome://marionette/content/listener.js:527:14\ndispatch/<@chrome://marionette/content/listener.js:520:15\n"},null]
+1578512948009	Marionette	DEBUG	0 -> [0,55,"WebDriver:FindElement",{"using":"css selector","value":"#shopping\\-bag"}]
+1578512948012	Marionette	DEBUG	0 <- [1,55,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ab8ecaa6-73bf-49ab-9d62-4b492a358f0f"}}]
+1578512948026	Marionette	DEBUG	0 -> [0,56,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"ab8ecaa6-73bf-49ab-9d62-4b492a358f0f"}],"new ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512948039	Marionette	DEBUG	0 <- [1,56,null,{"value":true}]
+1578512948047	Marionette	DEBUG	0 -> [0,57,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='MyAccountContainer']/button/div"}]
+1578512948051	Marionette	DEBUG	0 <- [1,57,null,[{"element-6066-11e4-a52e-4f735466cecf":"be4fea1a-3862-4cba-9f53-03bde130f194"},{"element-6066-11e4-a52e-4f735466c ... ecf":"9817bdf0-2a52-4160-b6e4-295f3f1753a1"},{"element-6066-11e4-a52e-4f735466cecf":"948cdd07-6ebf-49c1-9ab0-886dd9619726"}]]
+1578512948054	Marionette	DEBUG	0 -> [0,58,"WebDriver:GetElementText",{"id":"be4fea1a-3862-4cba-9f53-03bde130f194"}]
+1578512948069	Marionette	DEBUG	0 <- [1,58,null,{"value":"Sign In"}]
+1578512948072	Marionette	DEBUG	0 -> [0,59,"WebDriver:GetElementText",{"id":"066fb18a-7ee3-4ae3-9bd5-587cbf92a43b"}]
+1578512948081	Marionette	DEBUG	0 <- [1,59,null,{"value":"Your Account"}]
+1578512948083	Marionette	DEBUG	0 -> [0,60,"WebDriver:GetElementText",{"id":"9817bdf0-2a52-4160-b6e4-295f3f1753a1"}]
+1578512948086	Marionette	DEBUG	0 <- [1,60,null,{"value":""}]
+1578512948089	Marionette	DEBUG	0 -> [0,61,"WebDriver:GetElementText",{"id":"be4fea1a-3862-4cba-9f53-03bde130f194"}]
+1578512948094	Marionette	DEBUG	0 <- [1,61,null,{"value":"Sign In"}]
+1578512948152	Marionette	DEBUG	0 -> [0,62,"WebDriver:GetElementText",{"id":"066fb18a-7ee3-4ae3-9bd5-587cbf92a43b"}]
+1578512948161	Marionette	DEBUG	0 <- [1,62,null,{"value":"Your Account"}]
+1578512948209	Marionette	DEBUG	0 -> [0,63,"WebDriver:GetElementText",{"id":"948cdd07-6ebf-49c1-9ab0-886dd9619726"}]
+1578512948220	Marionette	DEBUG	0 <- [1,63,null,{"value":""}]
+1578512948227	Marionette	DEBUG	0 -> [0,64,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"948cdd07-6ebf-49c1-9ab0-886dd9619726"},"aria ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1578512948236	Marionette	DEBUG	0 <- [1,64,null,{"value":"Open My Account Menu"}]
+1578512948298	Marionette	DEBUG	0 -> [0,65,"WebDriver:FindElement",{"using":"xpath","value":"//*[@id='MyAccountContainer']/button"}]
+1578512948303	Marionette	DEBUG	0 <- [1,65,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4a07a223-d2fb-497e-91f1-7fdf18e7729a"}}]
+1578512948588	Marionette	DEBUG	0 -> [0,66,"WebDriver:ElementClick",{"id":"4a07a223-d2fb-497e-91f1-7fdf18e7729a"}]
+1578512948601	Marionette	DEBUG	0 <- [1,66,{"error":"element click intercepted","message":"Element <button class=\"my-account__button my-account__button--large\"> ... avigate@chrome://marionette/content/listener.js:447:7\nclickElement@chrome://marionette/content/listener.js:1315:18\n"},null]
+1578512948609	Marionette	DEBUG	0 -> [0,67,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1578512948609	Marionette	INFO	Stopped listening on port 53592
+1578512948794	Marionette	TRACE	Received observer notification quit-application
+1578512948799	Marionette	DEBUG	0 <- [1,67,null,{"cause":"shutdown"}]
+1578512948835	Marionette	DEBUG	0 -> [0,68,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1578512948835	Marionette	DEBUG	0 <- [1,68,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1578512948850	Marionette	DEBUG	Closed connection 0
+1578512953851	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1578512953851	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1578512953852	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1578512953852	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1578512953852	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1578512953853	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1578512953853	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1578512953853	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1578512953854	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1578512953854	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1578512953854	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1578512953854	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1578512953854	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1578512953854	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1578512953855	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1578512953855	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1578512953855	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1578512953855	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1578512953856	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1578512953856	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1578512953856	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1578512953857	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1578512953857	Marionette	DEBUG	Resetting recommended pref extensions.
+w#e#b#!service!.discoverURL
+1578512953857	Marionett!e	DEBU G[	CRheisledt]t[iRng recuonmMmeesnsdaed pref netwgoer]k .Ehrtror: Channel closing: too late to tsend/recvp,. messages will bep romlptos-tte
+mp-
+redirect
+1578512953857	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1578512953857	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1578512953857	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1578512953857	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1578512953857	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1578512953858	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1578512953858	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1578512953858	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1578512953859	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 5167: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]

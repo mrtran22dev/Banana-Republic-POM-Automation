@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="28" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BRTestSuite" duration-ms="295835" started-at="2020-01-14T06:28:52Z" finished-at="2020-01-14T06:33:48Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="28943" started-at="2020-01-14T06:28:52Z" finished-at="2020-01-14T06:29:21Z">
+      <class name="org.br.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.br.test.HomePageTest@3532ec19]" name="setUp" is-config="true" duration-ms="14675" started-at="2020-01-14T06:28:52Z" finished-at="2020-01-14T06:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTitleTest()[pri:1, instance:org.br.test.HomePageTest@3532ec19]" name="getTitleTest" duration-ms="976" started-at="2020-01-14T06:29:07Z" finished-at="2020-01-14T06:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleTest -->
+        <test-method status="FAIL" signature="checkLogosTest()[pri:2, instance:org.br.test.HomePageTest@3532ec19]" name="checkLogosTest" duration-ms="643" started-at="2020-01-14T06:29:08Z" finished-at="2020-01-14T06:29:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+logos mismatch expected [Old] but found [Old Navy],
+logos mismatch expected [Hill] but found [Hill City]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+logos mismatch expected [Old] but found [Old Navy],
+logos mismatch expected [Hill] but found [Hill City]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at org.br.test.HomePageTest.checkLogosTest(HomePageTest.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogosTest -->
+        <test-method status="FAIL" signature="checkNavBarMenuTest()[pri:3, instance:org.br.test.HomePageTest@3532ec19]" name="checkNavBarMenuTest" duration-ms="1919" started-at="2020-01-14T06:29:08Z" finished-at="2020-01-14T06:29:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+nav bar mismatch expected [GIFTS] but found [ABOUT US]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+nav bar mismatch expected [GIFTS] but found [ABOUT US]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at org.br.test.HomePageTest.checkNavBarMenuTest(HomePageTest.java:97)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNavBarMenuTest -->
+        <test-method status="PASS" signature="checkShopBagTest()[pri:4, instance:org.br.test.HomePageTest@3532ec19]" name="checkShopBagTest" duration-ms="60" started-at="2020-01-14T06:29:10Z" finished-at="2020-01-14T06:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkShopBagTest -->
+        <test-method status="PASS" signature="checkSignInMenuTest()[pri:5, instance:org.br.test.HomePageTest@3532ec19]" name="checkSignInMenuTest" duration-ms="549" started-at="2020-01-14T06:29:10Z" finished-at="2020-01-14T06:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignInMenuTest -->
+        <test-method status="PASS" signature="clickSignInTest()[pri:6, instance:org.br.test.HomePageTest@3532ec19]" name="clickSignInTest" duration-ms="9126" started-at="2020-01-14T06:29:11Z" finished-at="2020-01-14T06:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.br.test.HomePageTest@3532ec19]" name="tearDown" is-config="true" duration-ms="957" started-at="2020-01-14T06:29:20Z" finished-at="2020-01-14T06:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.br.test.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test name="LoginTest" duration-ms="36926" started-at="2020-01-14T06:29:21Z" finished-at="2020-01-14T06:29:58Z">
+      <class name="org.br.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.br.test.LoginPageTest@464bee09]" name="setUp" is-config="true" duration-ms="18799" started-at="2020-01-14T06:29:21Z" finished-at="2020-01-14T06:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="titleTest()[pri:1, instance:org.br.test.LoginPageTest@464bee09]" name="titleTest" duration-ms="68" started-at="2020-01-14T06:29:40Z" finished-at="2020-01-14T06:29:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[title mismatch expected [Sign In | Banana Republic Bad] but found [Sign In | Banana Republic]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: title mismatch expected [Sign In | Banana Republic Bad] but found [Sign In | Banana Republic]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.br.test.LoginPageTest.titleTest(LoginPageTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="loginAccountTest()[pri:2, instance:org.br.test.LoginPageTest@464bee09]" name="loginAccountTest" duration-ms="6411" started-at="2020-01-14T06:29:40Z" finished-at="2020-01-14T06:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAccountTest -->
+        <test-method status="PASS" signature="accountInfoTest()[pri:3, instance:org.br.test.LoginPageTest@464bee09]" name="accountInfoTest" duration-ms="163" started-at="2020-01-14T06:29:46Z" finished-at="2020-01-14T06:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountInfoTest -->
+        <test-method status="PASS" signature="accountDropDownMenuTest()[pri:4, instance:org.br.test.LoginPageTest@464bee09]" name="accountDropDownMenuTest" duration-ms="536" started-at="2020-01-14T06:29:46Z" finished-at="2020-01-14T06:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountDropDownMenuTest -->
+        <test-method status="PASS" signature="clickSignOutTest()[pri:5, instance:org.br.test.LoginPageTest@464bee09]" name="clickSignOutTest" duration-ms="4607" started-at="2020-01-14T06:29:47Z" finished-at="2020-01-14T06:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignOutTest -->
+        <test-method status="PASS" signature="clickSearchPageTest()[pri:6, instance:org.br.test.LoginPageTest@464bee09]" name="clickSearchPageTest" duration-ms="5476" started-at="2020-01-14T06:29:51Z" finished-at="2020-01-14T06:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.br.test.LoginPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="850" started-at="2020-01-14T06:29:57Z" finished-at="2020-01-14T06:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.br.test.LoginPageTest -->
+    </test> <!-- LoginTest -->
+    <test name="SearchPageTest" duration-ms="47592" started-at="2020-01-14T06:29:58Z" finished-at="2020-01-14T06:30:45Z">
+      <class name="org.br.test.SearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.br.test.SearchPageTest@3c0ecd4b]" name="setUp" is-config="true" duration-ms="16080" started-at="2020-01-14T06:29:58Z" finished-at="2020-01-14T06:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="titleTest()[pri:1, instance:org.br.test.SearchPageTest@3c0ecd4b]" name="titleTest" duration-ms="6" started-at="2020-01-14T06:30:14Z" finished-at="2020-01-14T06:30:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[title mismatch expected [Search Page] but found [Search | Banana Republic]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: title mismatch expected [Search Page] but found [Search | Banana Republic]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.br.test.SearchPageTest.titleTest(SearchPageTest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="searchQueryTest()[pri:2, instance:org.br.test.SearchPageTest@3c0ecd4b]" name="searchQueryTest" duration-ms="23488" started-at="2020-01-14T06:30:14Z" finished-at="2020-01-14T06:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchQueryTest -->
+        <test-method status="PASS" signature="selectItemTest()[pri:3, instance:org.br.test.SearchPageTest@3c0ecd4b]" name="selectItemTest" duration-ms="7141" started-at="2020-01-14T06:30:37Z" finished-at="2020-01-14T06:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItemTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.br.test.SearchPageTest@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="873" started-at="2020-01-14T06:30:45Z" finished-at="2020-01-14T06:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.br.test.SearchPageTest -->
+    </test> <!-- SearchPageTest -->
+    <test name="ProductPageTest" duration-ms="54024" started-at="2020-01-14T06:30:45Z" finished-at="2020-01-14T06:31:40Z">
+      <class name="org.br.test.ProductPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.br.test.ProductPageTest@6500df86]" name="setUp" is-config="true" duration-ms="41117" started-at="2020-01-14T06:30:45Z" finished-at="2020-01-14T06:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTitleTest()[pri:1, instance:org.br.test.ProductPageTest@6500df86]" name="getTitleTest" duration-ms="35" started-at="2020-01-14T06:31:27Z" finished-at="2020-01-14T06:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleTest -->
+        <test-method status="PASS" signature="itemAddToBagTest()[pri:2, instance:org.br.test.ProductPageTest@6500df86]" name="itemAddToBagTest" duration-ms="1312" started-at="2020-01-14T06:31:27Z" finished-at="2020-01-14T06:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemAddToBagTest -->
+        <test-method status="PASS" signature="getProductDetailTest()[pri:3, instance:org.br.test.ProductPageTest@6500df86]" name="getProductDetailTest" duration-ms="2887" started-at="2020-01-14T06:31:28Z" finished-at="2020-01-14T06:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductDetailTest -->
+        <test-method status="PASS" signature="clickCheckoutTest()[pri:4, instance:org.br.test.ProductPageTest@6500df86]" name="clickCheckoutTest" duration-ms="7681" started-at="2020-01-14T06:31:31Z" finished-at="2020-01-14T06:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCheckoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.br.test.ProductPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="987" started-at="2020-01-14T06:31:39Z" finished-at="2020-01-14T06:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.br.test.ProductPageTest -->
+    </test> <!-- ProductPageTest -->
+    <test name="ShopBagPageTest" duration-ms="61385" started-at="2020-01-14T06:31:40Z" finished-at="2020-01-14T06:32:41Z">
+      <class name="org.br.test.ShopBagPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.br.test.ShopBagPageTest@1ce92674]" name="setUp" is-config="true" duration-ms="52512" started-at="2020-01-14T06:31:40Z" finished-at="2020-01-14T06:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:org.br.test.ShopBagPageTest@1ce92674]" name="titleTest" duration-ms="157" started-at="2020-01-14T06:32:32Z" finished-at="2020-01-14T06:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="checkProductDetailTest()[pri:1, instance:org.br.test.ShopBagPageTest@1ce92674]" name="checkProductDetailTest" duration-ms="122" started-at="2020-01-14T06:32:32Z" finished-at="2020-01-14T06:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProductDetailTest -->
+        <test-method status="PASS" signature="clickCheckoutTest()[pri:2, instance:org.br.test.ShopBagPageTest@1ce92674]" name="clickCheckoutTest" duration-ms="7764" started-at="2020-01-14T06:32:32Z" finished-at="2020-01-14T06:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCheckoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.br.test.ShopBagPageTest@1ce92674]" name="tearDown" is-config="true" duration-ms="826" started-at="2020-01-14T06:32:40Z" finished-at="2020-01-14T06:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.br.test.ShopBagPageTest -->
+    </test> <!-- ShopBagPageTest -->
+    <test name="CheckoutPageTest" duration-ms="66798" started-at="2020-01-14T06:32:41Z" finished-at="2020-01-14T06:33:48Z">
+      <class name="org.br.test.CheckoutPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.br.test.CheckoutPageTest@1e397ed7]" name="setUp" is-config="true" duration-ms="59866" started-at="2020-01-14T06:32:41Z" finished-at="2020-01-14T06:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="productDetailActualTest()[pri:1, instance:org.br.test.CheckoutPageTest@1e397ed7]" name="productDetailActualTest" duration-ms="112" started-at="2020-01-14T06:33:41Z" finished-at="2020-01-14T06:33:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+product detail mismatch expected [M] but found [Size: M]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+product detail mismatch expected [M] but found [Size: M]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at org.br.test.CheckoutPageTest.productDetailActualTest(CheckoutPageTest.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetailActualTest -->
+        <test-method status="PASS" signature="orderSummaryTest()[pri:2, instance:org.br.test.CheckoutPageTest@1e397ed7]" name="orderSummaryTest" duration-ms="54" started-at="2020-01-14T06:33:41Z" finished-at="2020-01-14T06:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSummaryTest -->
+        <test-method status="PASS" signature="guestUserDisplayTest()[pri:3, instance:org.br.test.CheckoutPageTest@1e397ed7]" name="guestUserDisplayTest" duration-ms="235" started-at="2020-01-14T06:33:41Z" finished-at="2020-01-14T06:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestUserDisplayTest -->
+        <test-method status="PASS" signature="returnUserDisplayTest()[pri:4, instance:org.br.test.CheckoutPageTest@1e397ed7]" name="returnUserDisplayTest" duration-ms="1433" started-at="2020-01-14T06:33:41Z" finished-at="2020-01-14T06:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnUserDisplayTest -->
+        <test-method status="PASS" signature="loginReturnUserTest()[pri:5, instance:org.br.test.CheckoutPageTest@1e397ed7]" name="loginReturnUserTest" duration-ms="668" started-at="2020-01-14T06:33:43Z" finished-at="2020-01-14T06:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginReturnUserTest -->
+        <test-method status="PASS" signature="getTitles()[pri:6, instance:org.br.test.CheckoutPageTest@1e397ed7]" name="getTitles" duration-ms="3451" started-at="2020-01-14T06:33:43Z" finished-at="2020-01-14T06:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitles -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.br.test.CheckoutPageTest@1e397ed7]" name="tearDown" is-config="true" duration-ms="971" started-at="2020-01-14T06:33:47Z" finished-at="2020-01-14T06:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.br.test.CheckoutPageTest -->
+    </test> <!-- CheckoutPageTest -->
+  </suite> <!-- BRTestSuite -->
+</testng-results>
